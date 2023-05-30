@@ -2,7 +2,10 @@ package hu.home;
 
 public class DevClass {
     public static void main(String[] args) {
-        System.out.println("Hello Dev Class!");
+        DevClass.printMessage("Hello Dev Class!");
+    }
+    public static void printMessage(String message){
+        System.out.println(message);
     }
 
 }
