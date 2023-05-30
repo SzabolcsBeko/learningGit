@@ -16,4 +16,8 @@ public class DevClass {
         new LogginService().loggingServiceDecorator(message);
     }
 
+    public static void addingTwoNumbers(int a, int b){
+        System.out.println(a + b);
+    }
+
 }
