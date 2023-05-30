@@ -7,6 +7,7 @@ public class DevClass {
     public static void printMessage(String message){
         StringBuilder sb = new StringBuilder("Szabolcs,");
         sb.append(message);
+        addingTwoNumbers(10, message.length() );
         decoratorPrinter(sb.toString());
         sb = null;
     }
