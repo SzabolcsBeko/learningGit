@@ -13,6 +13,7 @@ public class DevClass {
 
     public static void decoratorPrinter(String message){
         System.out.println(message);
+        new LogginService().loggingServiceDecorator(message);
     }
 
 }
